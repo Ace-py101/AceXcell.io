@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: acexcell-landing-page-prototype
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: .
