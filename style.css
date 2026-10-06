@@ -24,3 +24,23 @@
 .contact-line a{color:var(--gold2)}
 @media(max-width:850px){.services-grid{grid-template-columns:1fr}.service-process{grid-template-columns:1fr;gap:25px;padding:75px 6vw}.services-hero{padding-top:70px}.service-card h2{font-size:1.55rem}}
 @media(max-width:520px){.service-card{padding:27px 22px}.service-card ul{grid-template-columns:1fr}.services-hero .actions{flex-wrap:wrap}}
+/* Home-page Services CTA */
+.services-home-btn{
+  border:1px solid var(--gold);
+  color:var(--gold2);
+  background:transparent;
+}
+.services-home-btn:hover{
+  background:rgba(216,177,90,.10);
+  transform:translateY(-1px);
+}
+/* Home-page Services CTA */
+.services-home-btn{
+  border:1px solid var(--gold);
+  color:var(--gold2);
+  background:transparent;
+}
+.services-home-btn:hover{
+  background:rgba(216,177,90,.10);
+  transform:translateY(-1px);
+}

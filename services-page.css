@@ -1,0 +1,24 @@
+
+/* AceXcell.io Services page */
+.services-hero{max-width:1050px;margin:auto;padding:95px 6vw 75px;text-align:center;background:radial-gradient(circle at 50% 20%,rgba(216,177,90,.08),transparent 38%)}
+.services-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.8rem,6vw,5rem);line-height:1.04;letter-spacing:-.04em;margin:0 auto 24px;max-width:900px}
+.services-hero h1 em{color:var(--gold2);font-style:normal}
+.services-hero p{max-width:720px;margin:0 auto;color:#bdc6d2;font-size:1.05rem}
+.services-hero .actions{justify-content:center}
+.services-grid{max-width:1200px;margin:auto;padding:30px 6vw 100px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+.service-card{background:linear-gradient(145deg,rgba(11,25,43,.96),rgba(7,17,31,.96));border:1px solid var(--line);border-radius:18px;padding:34px 32px;box-shadow:0 20px 50px rgba(0,0,0,.18);transition:.2s ease}
+.service-card:hover{border-color:rgba(240,213,138,.5);transform:translateY(-2px)}
+.service-number{color:var(--gold);font-size:.75rem;letter-spacing:.18em;font-weight:700}
+.service-card h2{font-family:'Playfair Display',serif;font-size:1.75rem;line-height:1.12;margin:14px 0 12px}
+.service-card p{color:#b7c1cd;font-size:.92rem;margin:0 0 20px}
+.service-card ul{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:1fr 1fr;gap:10px 18px}
+.service-card li{font-size:.82rem;color:#dce2e9}
+.service-card li::before{content:'✓';color:var(--gold);font-weight:700;margin-right:8px}
+.service-process{max-width:1100px;margin:auto;padding:100px 6vw;display:grid;grid-template-columns:1fr 1fr;gap:75px;border-top:1px solid var(--line)}
+.service-process h2{font-family:'Playfair Display',serif;font-size:clamp(2.2rem,4vw,3.4rem);line-height:1.05;margin:0}
+.service-process p{color:#bdc6d2;margin:0 0 25px}
+.service-cta{margin-top:0}
+.service-cta .contact-line{line-height:1.8}
+.contact-line a{color:var(--gold2)}
+@media(max-width:850px){.services-grid{grid-template-columns:1fr}.service-process{grid-template-columns:1fr;gap:25px;padding:75px 6vw}.services-hero{padding-top:70px}.service-card h2{font-size:1.55rem}}
+@media(max-width:520px){.service-card{padding:27px 22px}.service-card ul{grid-template-columns:1fr}.services-hero .actions{flex-wrap:wrap}}
